@@ -1,0 +1,137 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Local StyleSheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/cursor.css" rel="stylesheet">
+
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <!-- Fevicon -->
+    <link rel="icon" href="images/Logo.png" />
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/91b2e438a3.js" crossorigin="anonymous"></script>
+
+    <title>Design Periodt</title>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+
+    <nav>
+        <div class="navbar">
+
+            <a class="text middle navbar-brand">
+                <img class="image text middle" src="images/Logo.png" />
+                <span class="not ">d</span>
+                <span class="hidden not">e</span>
+                <span class="hidden not">s</span>
+                <span class="hidden not">i</span>
+                <span class="hidden not">g</span>
+                <span class="hidden not">n</span>
+                <span class="hidden not">&nbsp</span>
+                <span class="not">p</span>
+                <span class="hidden not">e</span>
+                <span class="hidden not">r</span>
+                <span class="hidden not">i</span>
+                <span class="hidden not">o</span>
+                <span class="hidden not">d</span>
+                <span class="hidden not">t</span>
+            </a>
+
+            <button class="toggle-collapse" type="button" name="sandwichmenu"><i
+                    class="fas fa-ellipsis-h fa-2x"></i></button>
+
+            <div class="navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="work.html">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <Section id="work">
+
+        <div class="WorkContainer space">
+            <div class="hundredPercent">
+                <img src="images/work/earthhealthy/earthhealthy1a.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="WorkContainer space lastItem">
+            <div class="hundredPercent">
+                <img src="images/work/earthhealthy/earthhealthy2a.png" alt="">
+            </div>
+        </div>
+
+        <div class="WorkContainer space lastItem">
+            <div class="fiftyPercent">
+                <img src="images/work/earthhealthy/earthhealthy3a.jpg" alt="">
+            </div>
+            <div class="fiftyPercent">
+                <img src="images/work/earthhealthy/earthhealthy3b.png" alt="">
+            </div>
+        </div>
+
+
+    </Section>
+
+
+    <!-- FONT AWESOME -->
+
+    <section id="footerContainer">
+        <a class="socialIcon"> <i class="fa fa-brands fa-instagram fa-2x"></i></a>
+        <a class="socialIcon"> <i class="fa fa-brands fa-facebook-square fa-2x"></i></a>
+        <a class="socialIcon"> <i class="fa fa-solid fa-envelope fa-2x"> </i></a>
+        <div class="copyRight">Copyright © 2022</div>
+    </section>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function () {
+        $('.toggle-collapse').click(function () {
+            $('.navbar-collapse').toggleClass("collapse");
+
+        })
+    });
+</script>
+
+<script src="Js/script.js"></script>
+<!-- JS for Cursor -->
+<script src="JS/cursor.js"></script>
+<script>
+    init_pointer({
+        pointerColor: "#fff",
+        ringSize: 10,
+        ringClickSize: 15
+    })
+</script>
+
+
+</html>
