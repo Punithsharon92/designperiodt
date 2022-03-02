@@ -274,7 +274,13 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-
+  .image {
+    width: 65px;
+    padding: 22px 27px 0 26px;
+  }
+  .not {
+    font-size: 1rem;
+  }
   .toggle-collapse {
     display: inline-block;
   }
@@ -421,6 +427,7 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  
   #contact .heading {
     margin-top: 50px;
     font-size: 25px;
@@ -604,4 +611,18 @@ body {
 
 .UnderCon img{ 
  width: 100%;
+}
+
+/* About Us */
+#about .heading{
+  font-size: 30px;
+  font-family: 'Quattrocento', serif;
+  color: #5a93af;
+  text-align: center;
+}
+#about .content{
+  font-size: 20px;
+  font-family: 'Quattrocento', serif;
+  color: #5a93af;
+  padding: 0 30px;
 }
